@@ -1,16 +1,16 @@
 import random
 
 
-words = ['olma', 'stul', 'banan', 'stol', 'gitara', 'okean', 'qalam', 'deraza', 'ko‘zgu', 'shisha',
-'chiroq', 'adyol', 'sham', 'daftar', 'soyabon', 'kapalak', 'soat', 'chamadon', 'qulupnay', 'tog‘',
-'klaviatura', 'rasm', 'televizor', 'ryukzak', 'gilam', 'shokolad', 'kaktus', 'yostiq', 'magnit', 'jirafa',
-'skeytbord', 'naushnik', 'kamera', 'hamyon', 'narvon', 'jumboq', 'teleskop', 'sayyora', 'ajdaho', 'sviter',
-'olmos', 'favvora', 'hamster', 'vulqon', 'sendvich', 'vertolyot', 'to‘tiqush', 'tarvuz', 'kompas', 'stapler',
-'quyosh ko‘zoynak', 'kamalak', 'orol', 'kamin', 'oy', 'qal’a', 'kubok', 'mikroskop', 'avokado', 'lift',
-'basketbol', 'fonar', 'meduza', 'qalampir', 'dengiz chig‘anog‘i', 'marafon', 'kanguru', 'popkorn', 'lug‘at', 'qoshiq',
-'kit', 'zanjirli ilgak', 'xazina', 'samolyot', 'kungaboqar', 'pingvin', 'saksofon', 'batut', 'karusel', 'kokos',
-'qor odam', 'chayon', 'meteor', 'mo‘ri', 'piramida', 'skripka', 'fonus', 'robot', 'tırtıl', 'sharshara',
-'toster', 'mushakbozlik', 'haykal', 'gorilla', 'aysberg', 'suvosti kemasi', 'dolchin', 'sharcha', 'chizma', 'limon'  ]
+words = ['apple', 'chair', 'banana', 'table', 'guitar', 'ocean', 'pencil', 'window', 'mirror', 'glass',
+'light', 'blanket', 'candle', 'notebook', 'umbrella', 'butterfly', 'clock', 'suitcase', 'strawberry', 'mountain',
+'keyboard', 'picture', 'television', 'backpack', 'carpet', 'chocolate', 'cactus', 'pillow', 'magnet', 'giraffe',
+'skateboard', 'headphones', 'camera', 'wallet', 'ladder', 'puzzle', 'telescope', 'planet', 'dragon', 'sweater',
+'diamond', 'fountain', 'hamster', 'volcano', 'sandwich', 'helicopter', 'parrot', 'watermelon', 'compass', 'stapler',
+'sunglasses', 'rainbow', 'island', 'fireplace', 'moon', 'castle', 'trophy', 'microscope', 'avocado', 'elevator',
+'basketball', 'flashlight', 'jellyfish', 'pepper', 'seashell', 'marathon', 'kangaroo', 'popcorn', 'dictionary', 'spoon',
+'whale', 'hook', 'treasure', 'airplane', 'sunflower', 'penguin', 'saxophone', 'trampoline', 'carousel', 'coconut',
+'snowman', 'scorpion', 'meteor', 'chimney', 'pyramid', 'violin', 'lantern', 'robot', 'caterpillar', 'waterfall',
+'toaster', 'fireworks', 'statue', 'gorilla', 'iceberg', 'submarine', 'cinnamon', 'ball', 'drawing', 'lemon']
 
 stages = [r'''
   +---+
@@ -119,4 +119,3 @@ while not Game_over:
 
     if "_" not in display:
         print("You won")
-
